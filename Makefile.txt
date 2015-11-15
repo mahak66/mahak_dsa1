@@ -1,0 +1,4 @@
+project: project.o
+	cc project.c
+project.o: project.c string.h header.h
+	cc -Wall -c project.c
